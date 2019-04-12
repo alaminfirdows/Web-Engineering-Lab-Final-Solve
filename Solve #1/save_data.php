@@ -1,6 +1,6 @@
 <?php
 
-$db = mysqli_connect("localhost", "root", "", "web_lab_final_solve_1");
+$db = mysqli_connect("localhost", "root", "", "web_lab_final_solve");
 if (mysqli_connect_errno()) {
     echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
@@ -12,7 +12,7 @@ if (isset($_POST['save'])) {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    $run = $db->query('INSERT INTO `student_data`(`name`, `s_id`, `age`, `username`, `password`) VALUES ("' . $name . '", "' . $s_id . '", "' . $age . '","' . $username . '","' . $password . '")');
+    $run = $db->query('INSERT INTO `solve_1_student_data`(`name`, `s_id`, `age`, `username`, `password`) VALUES ("' . $name . '", "' . $s_id . '", "' . $age . '","' . $username . '","' . $password . '")');
 
     if ($run) {
         echo "Data Insert Successfully";

@@ -1,11 +1,11 @@
 <?php
 
-$db = mysqli_connect("localhost", "root", "", "web_lab_final_solve_1");
+$db = mysqli_connect("localhost", "root", "", "web_lab_final_solve");
 if (mysqli_connect_errno()) {
     echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
 
-$data = $db->query('SELECT * FROM `student_data`');
+$data = $db->query('SELECT * FROM `solve_1_student_data`');
 
 $db->close();
 ?>
@@ -21,7 +21,7 @@ $db->close();
     <div>
         <a href="save_data.php">Insert Data</a>
     </div>
-    <table>
+    <table border="1" style="border-collapse:collapse">
         <tr>
             <th>ID</th>
             <th>Name</th>
