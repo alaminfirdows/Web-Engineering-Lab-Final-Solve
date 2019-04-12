@@ -1,0 +1,11 @@
+10.
+
+$color = array('white', 'green', 'red'')
+
+Write a PHP script which will display the colors in the following way : 
+Output :
+    A. white, green, red
+    B.
+    •	green
+    •	red
+    •	white
