@@ -1,4 +1,13 @@
 <?php
+/*
+*   Project:    Web-Engineering-Lab-Final-Solve
+*   Version:    1.0.0
+*   Author:     Al-Amin Firdows
+*   Email:      alaminfirdows@gmail.com
+*   Skype:      alamin.firdows
+*   URI:        http://alamin.me
+*   Github:     https://github.com/alaminfirdows/Web-Engineering-Lab-Final-Solve
+*/
 
 $db = mysqli_connect("localhost", "root", "", "web_lab_final_solve");
 if (mysqli_connect_errno()) {
