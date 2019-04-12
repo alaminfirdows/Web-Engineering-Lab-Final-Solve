@@ -28,7 +28,7 @@ $db->close();
 
 <body>
     <div>
-        <a href="save_data.php">Insert Data</a>
+        <a href="index.php">Insert Data</a>
     </div>
     <table border="1" style="border-collapse:collapse">
         <tr>
